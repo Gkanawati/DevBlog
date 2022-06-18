@@ -28,7 +28,9 @@ Para o BackEnd do prejeto, foi utilizado o strapi, um painel de criação de api
 
 ## :gear: Como rodar o Projeto:
 
-- Dentro da página do strapi (/blog-api) rodar o servidor com o comando:
+- Dentro da página do strapi (/blog-api):
+
+-Para rodar o servidor:
 
 ```
 npm run develop
