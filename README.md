@@ -26,6 +26,28 @@ Para o BackEnd do prejeto, foi utilizado o strapi, um painel de criação de api
 - `Strapi`
 - `Javascript`
 
+## :gear: Como rodar o Projeto:
+
+- Dentro da página do strapi (/blog-api) rodar o servidor com o comando:
+
+```
+npm run develop
+```
+
+- Na pasta do App (/DevBlog-App):
+
+-Para instalar todas as bibliotecas usadas no projeto rode o comando:
+
+```
+npm install --only=prod --only=dev
+```
+
+-Para rodar o app:
+
+```
+expo start
+```
+
 ## :computer: Telas
 
 <div align='center' style="justify-content: center; align-items: center;">
