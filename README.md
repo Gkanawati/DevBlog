@@ -1,5 +1,5 @@
 <h1 align="center">
-  📰📱 Dev Blog
+  📱📰 Dev Blog
 </h1>
 
 ## :rocket: Sobre o projeto
