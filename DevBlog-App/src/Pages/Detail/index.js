@@ -57,12 +57,11 @@ export default function Detail() {
     async function handleShare() {
         try {
             const result = await Share.share({
-                message: `
-                Confere esse Post: ${post?.attributes?.title}
+                message: `Confere esse Post: ${post.attributes.title}
 
-                ${post?.attributes?.description}
+${post.attributes.description}
 
-                Vi lá no App DevBlog! 🤩😎
+Vi lá no App DevBlog! 🤩😎
                 `
             })
 
@@ -80,6 +79,7 @@ export default function Detail() {
         }
         catch {
             console.log('erro no compoartilhamento');
+            alert('Erro no compartilhamento!');
         }
     }
 
